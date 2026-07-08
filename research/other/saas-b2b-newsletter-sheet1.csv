@@ -1,0 +1,351 @@
+Sl No,Newsletter,Who is writing?,Why should one subscribe?,Newsletter Link,LinkedIn Latest Post Link,LinkedIn Post Caption,YouTube Link,YouTube Latest Video Link,Substack Handle,Substack Latest Post Link,X Handle,X Latest Post Link,X Latest Post Caption,Apple Podcast,Apple Podcast Transcript
+1,The Generalist,Mario Gabriele,"Deep, highly researched analyses with long-form writing that feels more like a mini-book than a newsletter.",https://www.generalist.com/,https://www.linkedin.com/posts/mariogabriele_weve-all-heard-this-prophecy-before-all-activity-7479957351731531776-O247?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAWvfzcBZAs0_KYhzYyr8H0PItKGl2Fku_k,"We’ve all heard this prophecy before: all jobs are going away, we are automating everything, and soon you will belong to a permanent underclass. 
+
+Matan Grinberg thinks this prediction does real harm to the psychology of people who still have an important role to play in the future of humanity.
+
+He objects that the world contains far more unsolved problems than people solving them, and most could be addressed with software if anyone bothered to write it. That's because better quality of life does not necessarily end old problems. It manufactures new ones, each generation inheriting expectations the last could not have imagined.
+
+""We don't need to live like this,"" he said.
+
+Thank you to the partners who make this possible
+.TECH Domains: An identity for builders at their core: https://lnkd.in/e82A7nfp
+Brex: The intelligent finance platform: https://www.brex.com/mario
+Persona: Trusted identity verification for any use case: https://lnkd.in/efPvXZ9u",NA,NA,https://substack.com/@generalist,https://substack.com/@generalist/note/p-204918021?utm_source=notes-share-action,https://x.com/mariogabriele?lang=en,https://x.com/mariogabriele/status/2074191690362167393?s=20,"We’ve all heard this prophecy before: all jobs are going away, we are automating everything, and soon you will belong to a permanent underclass. 
+
+Matan Grinberg (
+@matanSF
+) thinks this prediction does real harm to the psychology of people who still have an important role to play in the future of humanity.
+
+He objects that the world contains far more unsolved problems than people solving them, and most could be addressed with software if anyone bothered to write it. That's because better quality of life does not necessarily end old problems. It manufactures new ones, each generation inheriting expectations the last could not have imagined.
+
+""We don't need to live like this,"" he said.",,
+2,Tenex,Alex Lieberman,Founder-led perspective with tactical takes and operator energy.,https://www.tenex.co/ultrathink,https://www.linkedin.com/posts/alex-lieberman_people-made-fun-of-alex-finn-for-buying-three-share-7480298997631328257-8poS/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAWvfzcBZAs0_KYhzYyr8H0PItKGl2Fku_k,"People made fun of Alex Finn for buying three Mac Studios to run AI at home.
+
+Then Fable got banned for a week, GLM 5.2 dropped, and those exact Mac Studios started reselling for 4x what he paid.
+
+He showed me how he built his home AI lab from scratch. Here's the playbook:
+
+1) The hardware. three 512GB Mac Studios, an NVIDIA DGX Spark, a custom RTX 5090 build, and a few Mac Minis. ~$30k all in.
+
+2) The buying framework... 
+- Mac Studio: huge memory, runs GLM 5.2 (open weights, near Opus 4.8 on benchmarks), but slow. 
+- DGX Spark ($4,800): the sweet spot for most people. 
+- RTX 5090: smaller models at blazing speed (Qwen's 29B now hits Sonnet 4 level). 
+
+3) Tailscale networks every machine into one private network with root access to each other. Only one machine is plugged into a monitor.
+
+4) A Nous Research Hermes agent is his IT guy. New model drops? It SSHs into the right box, loads 5 candidates, runs evals overnight, and reports back which task belongs on which machine. Alex has literally never loaded a model himself.
+
+5) The whole point: achieving ""ambient intelligence."" Always-on jobs that would bankrupt you on per-token billing. A security sweep of his API endpoints every hour. Code optimization every 20 minutes. Database anomaly & churn detection. Hourly scraping of X, Reddit & Hacker News for business opportunities.
+
+6) Running those workloads on frontier models would cost thousands a month. His actual cost: ~$60 more in electricity.
+
+7) Btw he's not anti-frontier. He still maxes out his Claude plan. The way he sees it: frontier is for hard thinking, local is for the foot soldiers that never sleep.
+
+8) ""We own everything except for the intelligence. Why can't we own the intelligence?""
+
+9) He thinks frontier-level intelligence runs on consumer hardware within 6 months.",https://www.youtube.com/@AlexStephenLieberman,https://youtu.be/Qteg_2HFvZ0?si=NWblaTsAIhCKKi5S,NA,NA,https://x.com/businessbarista,https://x.com/businessbarista/status/2074533161837470014?s=20,"People made fun of 
+@AlexFinn
+ for buying three Mac Studios to run AI at home.
+
+Then Fable got banned for a week, GLM 5.2 dropped, and those exact Mac Studios started reselling for 4x what he paid.
+
+He showed me how he built his home AI lab from scratch. Here's the playbook:
+
+1) The hardware. three 512GB Mac Studios, an 
+@nvidia
+  DGX Spark, a custom RTX 5090 build, and a few Mac Minis. ~$30k all in.
+
+2) The buying framework... 
+- Mac Studio: huge memory, runs GLM 5.2 (open weights, near Opus 4.8 on benchmarks), but slow. 
+- DGX Spark ($4,800): the sweet spot for most people. 
+- RTX 5090: smaller models at blazing speed (Qwen's 29B now hits Sonnet 4 level). 
+
+3) 
+@Tailscale
+ networks every machine into one private network with root access to each other. Only one machine is plugged into a monitor.
+
+4) A 
+@NousResearch
+ Hermes agent is his IT guy. New model drops? It SSHs into the right box, loads 5 candidates, runs evals overnight, and reports back which task belongs on which machine. Alex has literally never loaded a model himself.
+
+5) The whole point: achieving ""ambient intelligence."" Always-on jobs that would bankrupt you on per-token billing. A security sweep of his API endpoints every hour. Code optimization every 20 minutes. Database anomaly & churn detection. Hourly scraping of X, Reddit & Hacker News for business opportunities.
+
+6) Running those workloads on frontier models would cost thousands a month. His actual cost: ~$60 more in electricity.
+
+7) Btw he's not anti-frontier. He still maxes out his Claude plan. The way he sees it: frontier is for hard thinking, local is for the foot soldiers that never sleep.
+
+8) ""We own everything except for the intelligence. Why can't we own the intelligence?""
+
+9) He thinks frontier-level intelligence runs on consumer hardware within 6 months.",,
+3,First Round Review,First Round Capital,In-depth company-building advice from founders and operators who are actually building.,https://review.firstround.com/newsletter/,https://www.linkedin.com/posts/aditabraham_many-companies-are-1-on-a-benchmark-they-activity-7477767473065304065-5bgL?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAWvfzcBZAs0_KYhzYyr8H0PItKGl2Fku_k,"Many companies are #1 on a benchmark they crafted. We wanted to do something different.
+
+We partnered with micro1 to create an independently audited benchmark measuring document extraction performance on long, complex documents. Reducto had no role in selecting the test documents or modifying the ground truth.
+
+The benchmark, LongExtractBench, tested 225 real documents averaging 358 pages each, with roughly 88.7K ground truth fields. micro1 evaluated frontier models at max reasoning and dedicated document processing platforms at their strongest configurations.
+
+What emerged was a clear pattern: most solutions face a precision/recall tradeoff. Frontier models actually performed well on precision for completed documents, hitting 90%+ scores that surpassed dedicated extraction services. But recall was a different story — even on the easier subset of commonly completed documents, models fell below 80%, repeatedly dropping rows and important values.
+
+Reducto's Deep Extract was the only solution that was both complete and accurate across the full test set: 225/225 documents completed, 99%+ precision and recall, zero failures.
+
+That last point matters. Supporting real-world enterprise use cases requires more than accuracy on paper — pipelines need to be reliable and complete, every time. This benchmark reflects the work our team has put into making Deep Extract production-ready.
+
+We see this as a way to surface the silent failures that exist outside of marketing content, but the best evaluation will always be on your own data. 
+
+If your company uses another extraction service, we're offering up to $1,000 in credits to compare Deep Extract directly. Sign up here: https://lnkd.in/g5-Xn6CT",https://www.youtube.com/user/FirstRoundCapital,https://youtu.be/bRL-Om8B_ck?si=cS7cLXXny99bGLO6,NA,NA,https://x.com/firstround,https://x.com/aditabrm/status/2072002746891591953?s=20,"Many companies are #1 in a benchmark they crafted.
+
+We worked with 
+@micro1
+ to create an independently audited benchmark to measure document extraction performance with long documents. 
+
+The results of LongExtractBench show the nuances companies are likely to find in the real world. micro1 tested frontier models with max reasoning and document processing platforms with their strongest configurations, and found notable precision/recall and completion tradeoffs across most. 
+
+Reducto’s Deep Extract leads the industry by a wide margin. 🧵",,
+4,The Bootstrapped Founder,Arvid Kahl,"Practical strategies for starting, growing, and running bootstrapped businesses.",https://thebootstrappedfounder.com/,https://www.linkedin.com/posts/arvidkahl_podscan-tracks-every-single-podcast-out-there-share-7397675253910523904-tQBS/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAWvfzcBZAs0_KYhzYyr8H0PItKGl2Fku_k,"Podscan tracks every single podcast out there.
+
+And 2025 is shaping up to be the second-largest year for podcasting.
+
+Huge pandemic boost. Then, a dip. Now, pods are picking up speed.
+
+Don't skip podcasts in your marketing & reputation strategies, as a business or a professional. Not only is the spoken word still one of the most high-trust signals, but it also has momentum where other media are tanking. 
+
+Plus, podcasts are social structures, with network effects that mere technical mediums like blogs or email don't have.",https://www.youtube.com/channel/UCB6s-V1Ls4vc_mXEF-4Lz_Q,https://youtu.be/PWF_1_r0Dl8?si=jJ2aUqNOeCY2lO1R,NA,NA,https://x.com/arvidkahl,https://x.com/arvidkahl/status/2074168389270913303?s=20,"Is there a prediction market on whether Anthropic will do a ""well, actually, Fable will stay on the Max plan"" tomorrow?",https://tbf.fm/episodes/439-the-increasing-risk-of-building-in-public,"Arvid: 00:01
+Hey. It's Arvid, and this is The Bootstrapped Founder. Building in public, I wanna talk about that today. It once helped me to sell my company, and today, I think that same level of transparency that I used and built in public with a couple of years ago, four, five, six years ago, well, it's been a while, that actually, I think, can destroy your company if you employ it the exact same way today. And I think that's not hyperbole.
+
+Arvid: 00:28
+I owe my entire career as a writer, as a podcaster, and a founder to being pretty much radically transparent about my business. I shared my Stripe verified monthly recurring revenue with the world, and that visibility back then in twenty eighteen, nineteen attracted financial and acquisition interest that ultimately led to the sale of my previous software business Feedback Panda. I talk about this in the very first episode of this podcast too. And that exit put me on the map. It gave me financial independence.
+
+Arvid: 00:58
+It's the reason I have a podcast and a newsletter to begin with. If it hadn't been for Building Public and sharing my numbers, I probably wouldn't be speaking or writing to anybody right now. So when I tell you that the game has fundamentally changed, I need you to understand that I'm not saying this from the sidelines just observing. I'm saying this as somebody who benefited enormously from this old playbook, and I'm now watching founders follow it straight into danger. So that's why I wanna talk about building in public and the risks that come with it today.
+
+Arvid: 01:29
+When I first encountered the idea of building in public around five years ago, six years probably, it was all about transparency. You shared your numbers, you shared your strategies, your tactics, and you let people see behind the curtain, it worked. It built enormous goodwill for founders. It created buzz for their products and was kind of a form of validation too. People bought into your journey and then they became part of it themselves.
+
+Arvid: 01:53
+They amplified your story. They became early adopters and they never let me repeat the last part. And they took risks on your unfinished product because they believed in you and what you were building. And while this aspect of building reputation and demonstrating expertise in public is still an ongoing way for people to participate in our larger community, the founders, the entrepreneurs, the means of what building in public constitutes have changed quite a bit. It's kind of the advent of artificial intelligence in particular, but also the increasing scrutiny and public awareness on social media that have made things quite different.
+
+Arvid: 02:36
+The risk of being copied. That's the big thing in Building Public, right? It's always existed. Once you share, once you talk about something, people listen. I wrote about this a couple years ago after analyzing when founders dropped out of the building a public race.
+
+Arvid: 02:49
+I kind of wanted to see, can we time this? Like, when do people stop? And there was a clear pattern there. Companies stopped reporting their financial metrics and sharing their specifics about what exactly they were building. Just around 20,000 to $30,000 in monthly recurring revenue.
+
+Arvid: 03:05
+That was the threshold then. And below it, risk was manageable. You weren't big enough to be worth cloning and the upside of sharing, getting early adopter customers from your peer community and attracting innovators willing to give your product the chance, well, that outweighed the downside of maybe having somebody try and clone your business. And above it, above 20 to 30 ks, the likelihood of inspiring somebody to build a competitor was just too high. And the return on sharing was too low to justify this kind of exposure.
+
+Arvid: 03:35
+And I think this particular threshold has effectively collapsed to zero or is on its way of collapsing to zero. I would argue that the day the first CLI agentic coding agent found its way into a large enough group of people, the day that it started being shared as the way forward for software engineering, was the day that building in public became not just risky, but outright dangerous. And I can tell you this because I've seen it happen. It's not theoretical anymore. Here's what a savvy business minded person can do today.
+
+Arvid: 04:06
+They don't need to know how to code. They don't need to do this extensive market research. They don't even need to understand the tech stack. They just need a monthly subscription to an LLM company and the ability to phrase a prompt clearly. Something like investigate everything that this particular person has ever said on social media about their business over the last six months, distill it into report, then create a free trial on their software platform, go through each page, take screenshots, do a full semantic and HTML analysis, write a report on the product, create a style guide, create a reference document explaining the business and its ideal customer profile based on how the landing page talks about them, then build a product that does the exact same thing, maybe with a twist, something in addition to the existing product that it doesn't already do, using a framework that comes with production ready payment and authentication systems.
+
+Arvid: 05:00
+That's the prompt. And then they press enter and stuff happens. Now obviously this isn't going to do a one shot perfect copy, but if a business savvy entrepreneurial developer uses this, it might take them a couple of days to build something, maybe a couple of weeks to turn that prompt from a wish into a pretty solid reality. And if they understand paid advertising better than you might, right, if they already have distribution in your market that you don't or in an adjacent market that you wouldn't even think about, some leg up they might have, then all of a sudden there's a new competitor in the field that you have to deal with, one that you essentially helped create by talking about all these specific things. Problematic, right?
+
+Arvid: 05:45
+Clearly, there's a lot to running a business that has nothing to do with the product itself, and that's also something that building it in public often touches. I talked about this a couple weeks ago. Data is the only mode was the episode. The existing business knowledge and insight that has to be accumulated almost painfully over many years of running a business or being deeply embedded in an industry, well, all of that doesn't come bundled with agentic coding tools like Claude Code. Even though Claude is pretty smart and you can act as if it was somebody with experience, it only has the distilled insights that people have already shared.
+
+Arvid: 06:22
+These tools have a lot of knowledge available from these blog posts and books and forum posts that they've ingested as training data in the past. They can be a mentor that acts as if they were somebody from this industry, plus somebody from every other industry that intersects with it. So that's a capability that these tools have. And that's kind of scary if you think about it because I'm always realizing over the last couple months in particular that I'm not the best developer. Obviously, I'm not even a good developer.
+
+Arvid: 06:51
+I I would consider myself a developer at best, but I know what good code looks like. I have a hard time writing it, but I can tell if it is good or not. Kind of have a sense, a taste, a judgment capacity for it. So the same extends to marketing, to sales, to product development, to relationship development, to competitor analysis. I'm not trained in any of these, and I'm not particularly good, but I can tell a good outcome from a bad outcome, like a good report from bad report, an insight insightful report from a useless report.
+
+Arvid: 07:23
+And that is enough if I have agentic tools that do this work for me with the full underpinning of the collected wisdom of humanity in their training data. So where's that moat, right? I know for certain that product is not a moat anymore. Software engineering capability is not a moat, not anymore. So what do we talk about when we do want to build in public?
+
+Arvid: 07:47
+Because it's still good, right? Well, the first instinct might be to say, well, I'm never going to talk about my business at all. Honestly, it's not the worst idea at this point. At the very least, it prevents other founders from being made aware of your business in enough detail to replicate it. You'll find ways of talking to customers without exposing everything to your peers, if you kind of do it in a more private way.
+
+Arvid: 08:11
+But building in public is still beneficial because you built this kind of reputation, you built some kind of connectivity with your peers, with the other founders in the field, the other experts in the field. So it's a good thing to do. And building a public in front of an audience that includes founders has to change just a little bit. It has to be a nuanced information dissemination system. It has to be a strategy.
+
+Arvid: 08:36
+So here's my personal approach that I use to still build in public without giving everything away. First off, I would never share numbers. Not how many customers I have, not how many dollars I make in revenue, not what my expenses are. And even with features, because they too are now pretty much a well formulated prompt away from being built by anybody, I'm careful about what I share and in what detail. Because there's a meaningful difference between saying we recently started integrating an MCP into our product and customers really like it, which is quite literally what we've done at Podscan, versus ever since we integrated in MCP for these five core features, over 20 new customers have chosen our medium tier subscription plan.
+
+Arvid: 09:18
+Now these details for anyone, for machine or human, they give far too much insight into the financial dynamics of the business and even the customer behaviors. Like, don't overshare with specificity. I found myself not sharing numbers or specifics at all at this point, but when it comes to revenue, when it comes to customer names, customer numbers, customer accounts, all that, what I do share are things that trip me up along the way. The tripwires, things I didn't expect, and what happened when they occurred, what I did, what I learned from this. Industry insights that are general enough to not immediately make sense to a direct competitor, but are genuinely interesting to anybody else, like in the industry or outside of it, that stuff works.
+
+Arvid: 10:04
+Operational experiences, like an interesting customer service conversation or fixing a particularly gnarly bug and what went into solving it without showing too much of the big picture. There are a few categories of information that I probably would have shared easily five years ago because they were interesting and today I wouldn't dream of it anymore. System architecture is one. Specifically, how in my case for Podscan, I've set up my data ingestion pipeline, how I built my data distribution systems, right? Podscan is a pretty sizable business at this point.
+
+Arvid: 10:37
+It takes in tens of thousands of podcast episodes every day. It has like a REST API, a webhook API, an MCP, all that. And that sends similar, if not more data packages per hour, also like tens of thousands per hour out to all the customers. The data needs to come from somewhere, it needs to be stored somewhere, it needs to go somewhere, and the systems that I use for that are hard won consequences of many many experimental efforts over more than two years at this point. Why would I create a systems diagram of this and just give it away for free, handing another agentic system effectively a blueprint to rebuild what I'm doing?
+
+Arvid: 11:16
+Well, not gonna, right? And neither should you. This stuff is internal. And it might be obvious that this is internal, but for some people it's just interesting. Interesting to know, interesting to share, it becomes problematic.
+
+Arvid: 11:29
+And the same goes for dependencies. So what kind of service exactly do I use for data extraction or retrieval? What's the exact package and its configuration that I use for transcribing like 50,000 podcast episodes a day? Well, I'm not going to share that, because why would I make it easier for anybody else to build the same thing? Of course, I can talk about the open source components that I've used or specific little tricks to get more performance out of an existing technology.
+
+Arvid: 11:55
+That's always nice. Maybe I talk about this all the time now that I'm more into testing, like I talk about which particular packages have this little bug when you test them this way. That's wonderful, that's great, that's helpful. But you want to prevent sharing a blueprint. You don't want to create breadcrumbs to clone for somebody else.
+
+Arvid: 12:16
+And that's really what it comes down to. You want to share things that make it interesting to participate in your journey, but not easy to clone your business. Everything you share should pass this particular test. If it's not interesting, well then nobody's going to engage with it anyway, and you're only increasing your risk surface for no benefit, right, if it's still insightful into your business. If it makes it easy to copy you, you're building your own competitor.
+
+Arvid: 12:40
+So those two things should always be in place: make it interesting but not easy to clone. That's the filter. So maybe then, let's ask a bit theatrically, is building in public dead? Well, I don't think so, but it's been pruned. It's been cut down to a very nuanced and very deliberate balance of risk management, sharing strategy, and business defense against copycats and clones.
+
+Arvid: 13:06
+If you're building a public and you want to keep doing it, that's fine. You very likely already have defenses against copycats there. Otherwise, how would you have dealt with them before? Because people have already tried to copy stuff over the last five, ten years, as long as building a public existed. But it is by far not as straightforward to share transparently and widely as it used to be before agentic systems.
+
+Arvid: 13:29
+I know that people have always hired developers to build copies of existing products out there, and just like they now hire Codex or Cloud Code or whatever tool to do the same thing. But now it's much cheaper, significantly faster and frankly much better, right? It doesn't sleep, it doesn't tire, it has all the knowledge already baked in. Something that other people would have taken days, if not weeks, to figure out is now a couple seconds away, because it's already in the model. There's real value at this point of not being in the spotlight.
+
+Arvid: 14:01
+When it comes to successful software businesses today, at some point you're going to have to have a customer mode. You'll have customers, large customers especially, that you can only have by having built relationships with them. So that's another mode that an agentic tool won't be able to have, right? Relationships that took six months of back and forth emails and four meetings with the team and some Zoom calls and careful negotiation to get a deal in place, no agentic coding tool is going to replicate that for your competitor just yet. I mean, we have seen with 11, like automated tools that speak as if they're humans, Then we have agents, the open claws of the world that just consistently interact with people.
+
+Arvid: 14:40
+We're getting to this point. We're just not there yet. But for small and growing businesses, the ones that are still in this vulnerable stage, the early stage, you might want to keep things under down low for a bit. Otherwise, you might be inviting your own competitors to the table and not competing humans, but humans that kind of spawn robots to compete with you. And in this kind of new world of AI powered development, those things show up a whole lot faster than you will expect.
+
+Arvid: 15:09
+That's it for today. Thank you so much for listening to The Bootstrapped Founder. You can find me on Twitter at Arvid Kahl Arvid Kahl. Okay. Same.
+
+Arvid: 15:17
+Let me let me do this whole thing again. You can find me on Twitter at Arvid Kahl, Arvid Kahl. If you're a founder who's now thinking more carefully about what gets said about your business out there, well, this is exactly why I built PodScan. We monitor over 4,500,000 podcasts in real time, and we alert you when anybody mentions you so you know what's being said before somebody else uses it against you or uses it to, you know, further their own agenda. And we turn unstructured podcast chatter into competitive intelligence, so you can use that to set yourself apart.
+
+Arvid: 15:52
+If you're looking for your next venture, you don't know what to do, check out ideas.podscan.fm where we identify startup opportunities from hundreds of hours of expert discussions on podcasts daily, so you can build what people are already asking for. Share this please with anybody who needs to turn conversations into competitive advantages. Thanks so much for listening. Have a wonderful day and bye bye."
+5,MKT1 Newsletter,Emily Kramer,"Practical B2B marketing advice from the trenches, including positioning, messaging, and demand gen.",https://newsletter.mkt1.co/,https://www.linkedin.com/posts/emilykramer_33-of-paid-mkt1-subscribers-have-used-the-share-7480306446820212736-XXCj/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAWvfzcBZAs0_KYhzYyr8H0PItKGl2Fku_k,"33% of paid MKT1 subscribers have used the MKT1 MCP server. This seems like a high percentage...more work to be done though!
+
+Our MCP brings MKT1 frameworks and workflows right into Claude. 
+
+Here are our most used skills right now:
+1. /newsletter: ask any B2B marketing question and get pointed to the right MKT1 newsletters. (Open to everyone, not just paid subscribers)
+
+2. /job-board-search: Search open B2B marketing roles on the MKT1 job board. (Also open to everyone)
+
+3. /positioning & /homepage-positioning: define your positioning using the MKT1 framework, and/or check whether your homepage effectively communicates positioning
+
+4. /aeo-audit: check whether LLMs can actually read and cite your site.
+
+And our newest skills:
+1. /billboard-creative-review: share your billboard creative (or a photo of one) and get it scored against my billboard framework.
+
+2. /competitive-research: builds a battle card, including likely objections and how to respond.
+
+3. /jd-scorecard: builds a hiring scorecard for any B2B marketing role, to help you shape the JD, interview questions, and candidate evals (we have skills for those things too)
+
+---
+But over the next couple weeks, I'm focused on getting more out of other companies' MCPs and sharing what I learn with you.
+
+That's the idea behind our MCP Showcase on July 28:
+Profound, Framer, Softr, Mutiny, Attio & Airtable (just added) will all be there!
+
+RSVP: https://lnkd.in/gsaWfkp5
+(free, open to everyone, virtual)",https://www.youtube.com/@emilykramermkt1,https://youtu.be/JIm43JlvY94?si=EYX03sq3jlvzqkJY,https://substack.com/@emilyjkramer,https://substack.com/@emilyjkramer/note/c-290231618?utm_source=notes-share-action,NA,NA,NA,NA,NA
+6,The Pragmatic Engineer,Gergely Orosz,Deep dives into how high-growth software companies actually build and operate.,https://blog.pragmaticengineer.com/,https://www.linkedin.com/posts/gergelyorosz_from-a-head-of-engineering-who-spent-a-week-activity-7480274813052268544-4UV-?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAWvfzcBZAs0_KYhzYyr8H0PItKGl2Fku_k,"From a Head of Engineering who spent a week in SF, meeting a bunch of AI startups:
+
+""When I was back, I wrote a memo about my impressions. The #1 was how these amazing startups I met: they mostly did not have a business. But we do.
+
+So be VERY careful in copying what they do. It's easy to act all confident that doing X or Y is ""the"" way to do things, when your business is spending more money every month than what you generate, as you are searching for what your business will actually be.
+
+It's a different game when you have a business like us, and we're searching for how we can make it either bigger, or more efficient.""",https://www.youtube.com/@pragmaticengineer,https://youtu.be/ddHQQtjIOpw?si=HMT7db_bd-VlbOTp,NA,NA,https://x.com/GergelyOrosz,https://x.com/GergelyOrosz/status/2074556437959774589?s=20,"Heard from a friend working inside sports betting:
+
+Interest in this field is spiking. Internally, the assumption is that thanks to AI, when nothing can really be trusted anymore (photos, videos, text on social media etc) one thing still is real: live sports
+
+And ppl want real. Hence a stable but ongoing increase in interest in both sports, and sports betting...",NA,NA
+7,Growth Unhinged,Kyle Poyar,"Data-driven insights on SaaS growth, pricing, and go-to-market strategy.",https://www.growthunhinged.com,https://www.linkedin.com/posts/kyle-poyar_your-mini-mba-master-ai-for-gtm-ai-share-7479879629386801153-RAeh/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAWvfzcBZAs0_KYhzYyr8H0PItKGl2Fku_k,"Your mini-MBA: Master AI for GTM ⤵️ 
+
+AI usage has become tables stakes for GTM roles, and marketing (!) is now leading the way in AI adoption. But what counts as ""AI fluent"" looks way different than it did last year. What's new: Claude Code (and Cowork), context engineering, skills (md files), MCP connections, and more.
+
+Here's your AI GTM crash course to keep up -- and you can complete it over a weekend (pro tip: Cowork has 2x usage limits until August 5).
+
+101 Level: Discover what's working in AI for GTM
+ - Tools: Claude, ChatGPT
+ - Learn how to do it: https://lnkd.in/es9pNkm5
+
+201 Level: Set up your AI GTM system with Claude
+ - Tools: Claude, GitHub
+ - Guest instructor: Matteo Tittarelli
+- Learn how to do it: https://lnkd.in/eyeUYZVn
+
+301 Level: Become an AI-native operator with an AI chief of staff
+ - Tools: Claude, Dust
+ - Guest instructor: Justin Norris
+- Learn how to do it: https://lnkd.in/ei92-QJH
+
+401 Level: Run AI-native GTM plays based on real signal
+ - Tools: Claude, Clay, HubSpot, Apollo, The Swarm, RB2B
+ - Guest instructor: brendan short
+- Learn how to do it: https://lnkd.in/gC8aNHKb
+
+Elective A: Deep Research
+ - Tools: Claude, Perplexity
+ - Learn how to do it: https://lnkd.in/ebcQWEJg
+
+Elective B: Case Study (featuring monday)
+ - Tools: Claude, ElevenLabs, ChiliPiper
+ - See more: https://lnkd.in/gxFXDXhc
+
+Hope it's more fun than a real MBA ✨
+
+—
+
+🎁 For the latest AI GTM insights, subscribe to Growth Unhinged — my weekly newsletter read by 86k+ growth pros: https://lnkd.in/eGRr6_kn",NA,NA,https://kylepoyar.substack.com/,https://kylepoyar.substack.com/p/update-ive-moved-from-substack-to,https://x.com/poyark?lang=en,https://x.com/poyark/status/2046953339481391242?s=20,"New data: 67% of GTM operators say Claude Code enabled something previously impossible.
+
+Not ""saved time."" Impossible.",NA,NA
+8,SaaStr,Jason Lemkin,Daily B2B SaaS advice covering the realities of scaling a software company.,https://www.saastr.com/,https://www.linkedin.com/posts/jasonmlemkin_vibe-code-your-own-crm-not-worth-it-share-7480467101833629696-h5nG/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAWvfzcBZAs0_KYhzYyr8H0PItKGl2Fku_k,"Vibe code your own CRM?  Not worth it.  
+
+But what about a low value, limited niche product?
+
+This week we went to integrate our agents with a digital event software vendor we’ve used since 2020.
+
+Then 10K our AI VP Revenue / Marketing said, “Honestly, I can just build it better myself.  It would be easier than trying to build an integration with their limited API.”
+
+And so it did, in about an hour.  And now we’ll leave that $8k a year vendor of a simple point solution that didn’t evolve in the Age of AI.",NA,NA,NA,NA,https://x.com/jasonlk?lang=en,https://x.com/jasonlk/status/2074677096912150663?s=20,"Covfefe, definition #84:
+
+When a seed VC you haven't heard from in 2+ years say they've got a hot ""seed extension"" for you",NA,NA
+9,Lenny's Newsletter,Lenny Rachitsky,Highly researched product and growth writing with interviews and actionable frameworks.,https://www.lennysnewsletter.com/,https://www.linkedin.com/posts/lennyrachitsky_founders-are-the-happiest-people-in-tech-activity-7480366757417775105-k8qt?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAWvfzcBZAs0_KYhzYyr8H0PItKGl2Fku_k,"Founders are the happiest people in tech
+
+Full report: https://lnkd.in/gKq4E2uC",https://www.youtube.com/@LennysPodcast,https://youtu.be/P3KDebPTUrw?si=8_umWz_iycwKNugL,https://substack.com/@lenny,https://substack.com/@noamsegal/note/p-195557892?utm_source=notes-share-action,https://x.com/lennysan?,https://x.com/lennysan/status/2074520165296078964?s=20,"The tech workforce is splitting in two
+
+A year ago, we ran the first large-scale survey of how tech workers feel about their jobs and careers. What emerged we summarized in four words: burned out, but optimistic. Today, we're back with the results from our 2026 survey, and it's a tale of two workforces.
+
+Half of tech right now feels amplified by AI—more capable, more confident, more excited than they've been in their entire career.
+
+The other half feels shaken by it—less sure of their value and whether there’s still a place for them.
+
+Which side of that line you fall on predicts how you feel about your career more than anything else, including your role, seniority, company size, or any other measure we collected. 
+
+The workforce is bifurcating into two realities.
+
+A few other takeaways that surprised us:
++ Significant burnout jumped from 44.7% to 55.7% in one year, while career optimism fell from 54.8% to 48.7%. A worrisome trend.
++ 53% of tech workers would steer a newcomer away from a career in their own role, even when they're optimistic about their own future.
++ The biggest AI fear is of being squeezed to do more work. Only 22% worry about “losing my job to AI.” Far more worry about being expected to do more for the same pay, getting trapped in an unsustainable pace, and the quality of their work declining.
+
+The question that best predicts how a tech worker feels about their work, in 2026, is no longer ""What do you do?"" or ""Where do you work?"" It’s ""What has AI done to your sense of who you are?""
+
+Read the full report here: https://lennysnewsletter.com/p/how-tech-workers-are-feeling-in-2026",NA,NA
+10,Not Boring,Packy McCormick,Compelling strategy essays that explain how modern businesses work and grow.,https://www.notboring.co/,https://www.linkedin.com/posts/packym_to-celebrate-americas-250th-birthday-i-activity-7478518598911807489-6ZmT?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAWvfzcBZAs0_KYhzYyr8H0PItKGl2Fku_k,"To celebrate America's 250th birthday, I asked General Matter CEO and Founders Fund Partner Scott Nolan to write an essay on what he thinks America's next 250 years will look like. 
+
+They're going to be unimaginably great, if we work to make them great. Excerpt:
+
+--- 
+
+America has always granted its citizens the right to be industrious, the right to go do things, build, and create prosperity. These rights are fundamental to who we are.
+
+What has made America’s first 250 years great is that it has been this place where people knew they could come and have the space and freedom to build the future they believed would be good. The U.S. has always been the place for that, a place of freedom to, not just freedom from.
+
+The success or failure of the next 250 years will depend on these fundamentals. If the U.S. continues to be the place where we celebrate ambition — and if we commit ourselves to our best visions for the future — we will thrive, and the rest of the world will thrive with us.
+
+America should be the birthplace of superintelligence, the nuclear renaissance, the spacecraft that takes us to Mars, and the first people to populate the moon. This is the frontier country, wherever the frontier happens to be.
+
+We will have another 250 years of growth, prosperity, and abundance if each of us chooses to continue to work for them. The most beautiful thing about the American project is that there is no one to blame, and no one coming to save us, other than ourselves.",NA,NA,https://substack.com/@notboring,https://substack.com/@johnsstauffer/note/c-288749252?utm_source=notes-share-action,https://x.com/packyM,https://x.com/packyM/status/2074285242727145802?s=20,"BALOGUN HAT TRICK INCOMING
+Packy McCormick
+@packyM
+·
+Jul 7
+In 2030
+Packy McCormick
+@packyM
+·
+Jul 7
+I have a really bad feeling about this
+Packy McCormick
+@packyM
+·
+Jul 7
+We were also behind in World War 2 fyi",NA,NA
