@@ -43,3 +43,36 @@ The current source list is based on your research sheet and ordered by relevance
 ## Status
 
 This repository is a working research archive. It includes collected LinkedIn posts, transcripts, and supporting public-source notes, plus a learning file that records the workflow and challenges encountered.
+
+---
+
+# Stage 3 – Playbook & SOP
+
+The research collected in this repository has been synthesised into a practical **Newsletter & Email Marketing Playbook for B2B SaaS**, completing the final stage of the assignment.
+
+## Final Deliverable
+
+📘 **Newsletter & Email Marketing Playbook for B2B SaaS**
+
+➡️ **[PLAYBOOK.md](PLAYBOOK.md)**
+
+## Deliverables Completed
+
+- ✅ Created a complete Newsletter & Email Marketing Playbook / SOP
+- ✅ Supported recommendations with cited sources
+- ✅ Compared differing expert opinions in **Where Experts Disagree**
+- ✅ Documented **What I Rejected and Why**
+- ✅ Proposed original ideas beyond the source material
+- ✅ Identified weaknesses and limitations of the playbook
+- ✅ Included a complete references section
+
+## Outcome
+
+The playbook transforms the collected research into a practical framework that can help early-stage B2B SaaS companies:
+
+- Define their target audience
+- Position their newsletter
+- Plan and write content
+- Build repeatable publishing systems
+- Repurpose content across channels
+- Measure performance and continuously improve
